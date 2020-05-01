@@ -48,7 +48,9 @@
     "test:addon": "npm run lint -s && TEST_ADDON=1 ./scripts/test.sh",
     "deploy": "scripts/deploy.sh",
     "postpublish": "git tag -a $npm_package_version -m \"$npm_package_version\" && git push --tags",
-    "changelog": "github_changelog_generator && git add CHANGELOG.md && git commit -m 'Update changelog'"
+    "changelog": "github_changelog_generator && git add CHANGELOG.md && git commit -m 'Update changelog'",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "@ngx-rocket/ascii-logo": "^1.0.1",
@@ -66,7 +68,8 @@
     "minimist": "^1.2.0",
     "semver": "^6.2.0",
     "update-notifier": "^3.0.1",
-    "yeoman-environment": "^2.4.0"
+    "yeoman-environment": "^2.4.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "xo": "^0.24.0"
@@ -81,5 +84,6 @@
   "files": [
     "generators",
     "cli"
-  ]
+  ],
+  "snyk": true
 }
