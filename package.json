@@ -52,10 +52,10 @@
   },
   "dependencies": {
     "@ngx-rocket/ascii-logo": "^1.0.1",
-    "@ngx-rocket/core": "^5.0.1",
+    "@ngx-rocket/core": "^6.1.0",
     "chalk": "^2.4.2",
     "conf": "^5.0.0",
-    "cross-spawn": "^6.0.5",
+    "cross-spawn": "^7.0.5",
     "figures": "^3.0.0",
     "fuzz-run": "^1.0.2",
     "inquirer": "^6.4.1",
@@ -65,8 +65,8 @@
     "lodash.upperfirst": "^4.3.1",
     "minimist": "^1.2.0",
     "semver": "^6.2.0",
-    "update-notifier": "^3.0.1",
-    "yeoman-environment": "^2.4.0"
+    "update-notifier": "^4.0.0",
+    "yeoman-environment": "^2.9.0"
   },
   "devDependencies": {
     "xo": "^0.24.0"
