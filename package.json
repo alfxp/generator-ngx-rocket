@@ -59,7 +59,7 @@
     "figures": "^3.0.0",
     "fuzz-run": "^1.0.2",
     "inquirer": "^6.4.1",
-    "insight": "^0.10.3",
+    "insight": "^0.12.0",
     "lodash.camelcase": "^4.3.0",
     "lodash.get": "^4.4.2",
     "lodash.upperfirst": "^4.3.1",
